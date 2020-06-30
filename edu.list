@@ -7,6 +7,7 @@ DOMAIN-KEYWORD,wanfangdata
 # 法律数据库
 DOMAIN-KEYWORD,pkulaw
 DOMAIN-KEYWORD,westlawchina
+DOMAIN-SUFFIX,acs.org
 
 # SCI 综合
 DOMAIN-SUFFIX,researchgate.net
