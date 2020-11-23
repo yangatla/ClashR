@@ -1,5 +1,4 @@
 [custom]
-
 surge_ruleset=🔑 自己的规则,https://raw.githubusercontent.com/yangatla/ClashR/master/myrule.list
 surge_ruleset=🔑 Forbidconnect,https://raw.githubusercontent.com/yangatla/ClashR/master/Forbidconnect.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/yangatla/ClashR/master/edu.list
@@ -59,5 +58,3 @@ enable_rule_generator=true
 overwrite_original_rules=true
 
 clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
-
-;luck
