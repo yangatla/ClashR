@@ -1,0 +1,23 @@
+#!name=DNSPod DoH
+#!desc=Enable DNS over HTTPS (DoH) with DNSPod Public DNS.
+
+[General]
+loglevel = notify
+internet-test-url = http://www.aliyun.com
+proxy-test-url = http://www.bing.com
+ipv6 = true
+allow-wifi-access = true
+external-controller-access = passw0rd@0.0.0.0:6170
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+bypass-system = true
+tls-provider = default
+network-framework = false
+replica = false
+show-error-page-for-reject = true
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+exclude-simple-hostnames = true
+always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
+
+# macOS Only
+enhanced-mode-by-rule = true
+dns-server = 127.0.0.1, ::1
