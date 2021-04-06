@@ -23,7 +23,7 @@ enhanced-mode-by-rule = true
 dns-server = 127.0.0.1, ::1, 10.194.46.76, 198.18.0.1, 119.29.29.29
 
 [Rule]
-PROCESS-NAME,EndNote,DIRECT
+USER-AGENT,EndNote,DIRECT
 PROCESS-NAME,Thunder,DIRECT
 PROCESS-NAME,DownloadService,DIRECT
 PROCESS-NAME,qBittorrent,DIRECT
