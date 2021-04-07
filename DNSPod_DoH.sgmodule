@@ -49,7 +49,7 @@ URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
 URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&oad,REJECT-TINYGIF
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising_Domain.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list,REJECT
-
+RULE-SET,https://raw.githubusercontent.com/yangatla/ClashR/master/Forbidconnect.list,REJECT
 
 [URL Rewrite]
 ctier=[A-Z] citer=A 302
