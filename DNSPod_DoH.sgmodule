@@ -20,7 +20,7 @@ always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msf
 
 # macOS Only
 enhanced-mode-by-rule = true
-dns-server = 127.0.0.1, ::1, 10.194.46.76, 198.18.0.1, 119.29.29.29
+dns-server = 127.0.0.1, ::1, 223.5.5.5, 114.114.114.114
 
 [Rule]
 USER-AGENT,EndNote,DIRECT
