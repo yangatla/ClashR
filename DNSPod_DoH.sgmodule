@@ -23,6 +23,7 @@ enhanced-mode-by-rule = true
 dns-server = 127.0.0.1, ::1, 223.5.5.5, 114.114.114.114
 
 [Rule]
+DOMAIN,test-ipv6.com,DIRECT
 USER-AGENT,EndNote,DIRECT
 PROCESS-NAME,Thunder,DIRECT
 PROCESS-NAME,DownloadService,DIRECT
