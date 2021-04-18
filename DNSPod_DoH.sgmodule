@@ -67,6 +67,8 @@ URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&oad,REJECT-TINYGIF
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_Domain.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/yangatla/ClashR/master/Forbidconnect.list,REJECT
+RULE-SET,LAN,DIRECT
+FINAL,PROXY,dns-failed
 
 [URL Rewrite]
 # > Redirect Google Service
