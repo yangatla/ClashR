@@ -74,6 +74,7 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAre
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/yangatla/ClashR/master/direct.list,DIRECT
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/cncidr.txt,DIRECT
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AsianMedia/AsianMedia.list,DIRECT
 
 
 
