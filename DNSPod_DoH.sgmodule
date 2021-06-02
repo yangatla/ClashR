@@ -5,7 +5,8 @@
 bypass-system = true
 loglevel = notify
 replica = false
-dns-server = 127.0.0.1, ::1, system
+dns-server = 223.5.5.5, 114.114.114.114
+#dns-server = 127.0.0.1, ::1, system
 #doh-format = wireformat
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
 tun-excluded-routes = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
