@@ -40,6 +40,7 @@ keyword-filter-type = false
 
 
 [Rule]
+DOMAIN-SUFFIX,seu.edu.cn,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 USER-AGENT,EndNote,DIRECT
 PROCESS-NAME,Thunder,DIRECT
