@@ -71,7 +71,7 @@ PROCESS-NAME,/Applications/qbittorrent.app/Contents/MacOS/qbittorrent,DIRECT
 PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/MacOS/CleanMyMac X Menu,REJECT
 PROCESS-NAME,/Applications/EndNote X9/EndNote X9.app/Contents/MacOS/EndNote X9,DIRECT
 
-
+DOMAIN-SUFFIX,beyotime.com,DIRECT
 DOMAIN-SUFFIX,seu.edu.cn,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 USER-AGENT,EndNote,DIRECT
