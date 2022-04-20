@@ -40,6 +40,7 @@ keyword-filter-type = false
 
 
 [Rule]
+PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
 PROCESS-NAME,/Applications/Maipo.app/Contents/MacOS/Maipo,DIRECT
 PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Setup,DIRECT
 PROCESS-NAME,v2ray,DIRECT
