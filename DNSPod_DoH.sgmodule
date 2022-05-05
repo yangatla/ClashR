@@ -49,7 +49,7 @@ PROCESS-NAME,/Applications/OneDrive.app/Contents/PlugIns/OneDrive File Provider.
 PROCESS-NAME,/Applications/OneDrive.app/Contents/MacOS/OneDrive,DIRECT
 PROCESS-NAME,/Applications/Prism 9.app/Contents/MacOS/Prism,REJECT
 PROCESS-NAME,/Applications/FlowJo.app/Contents/Resources/jre1.8.0_144.jre/Contents/Home/bin/java,REJECT
-PROCESS-NAME,/System/Applications/App Store.app/Contents/MacOS/App Store,DIRECT
+# PROCESS-NAME,/System/Applications/App Store.app/Contents/MacOS/App Store,DIRECT
 PROCESS-NAME,/Applications/EasyConnect.app/Contents/MacOS/EasyConnect,DIRECT
 DOMAIN-KEYWORD,smtcdns.com,REJECT
 PROCESS-NAME,/Applications/EndNote X9/EndNote X9.app/Contents/MacOS/EndNote X9,DIRECT
