@@ -40,6 +40,7 @@ keyword-filter-type = false
 
 
 [Rule]
+PROCESS-NAME,/Applications/QQ.app/Contents/Library/LoginItems/QQ jietu plugin.app/Contents/MacOS/QQ jietu plugin,REJECT
 PROCESS-NAME,/Library/Input Methods/SogouInput.app/Contents/MacOS/SogouInput,REJECT
 PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
 PROCESS-NAME,/Applications/Maipo.app/Contents/MacOS/Maipo,DIRECT
