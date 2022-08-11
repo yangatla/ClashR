@@ -60,17 +60,17 @@ PROCESS-NAME,/Applications/EndNote X9/EndNote X9.app/Contents/MacOS/EndNote X9,D
 PROCESS-NAME,/private/var/folders/x9/t9fj106x0ssfs2m662yk00jr0000gn/X/B58DE559-6023-5790-80B4-9D897A6F97D3/d/Wrapper/DuokanReader.app/DuokanReader,REJECT
 DOMAIN,pubs.acs.org,DIRECT
 PROCESS-NAME,/Applications/Tencent Lemon Lite.app/Contents/MacOS/Tencent Lemon Lite,REJECT
-PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app/Contents/MacOS/adobe_licensing_helper,DIRECT
-PROCESS-NAME,/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS/Core Sync,DIRECT
-PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Adobe_CCXProcess.node,DIRECT
-PROCESS-NAME,/Applications/Adobe Photoshop 2022/Adobe Photoshop 2022.app/Contents/MacOS/Adobe Photoshop 2022,DIRECT
-PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Adobe CEF Helper.app/Contents/MacOS/Adobe CEF Helper,DIRECT
-PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app/Contents/MacOS/adobe_licensing_helper,DIRECT
+PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app/Contents/MacOS/adobe_licensing_helper,REJECT
+PROCESS-NAME,/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS/Core Sync,REJECT
+PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Adobe_CCXProcess.node,REJECT
+PROCESS-NAME,/Applications/Adobe Photoshop 2022/Adobe Photoshop 2022.app/Contents/MacOS/Adobe Photoshop 2022,REJECT
+PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Adobe CEF Helper.app/Contents/MacOS/Adobe CEF Helper,REJECT
+PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app/Contents/MacOS/adobe_licensing_helper,REJECT
 PROCESS-NAME,/Applications/TencentMeeting.app/Contents/MacOS/TencentMeeting,DIRECT
-PROCESS-NAME,/Library/Application Support/Adobe/Creative Cloud Libraries/CCLibrary.app/Contents/libs/node,DIRECT
-PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/MacOS/Creative Cloud Helper,DIRECT
-PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/MacOS/Adobe Desktop Service,DIRECT
-PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud,DIRECT
+PROCESS-NAME,/Library/Application Support/Adobe/Creative Cloud Libraries/CCLibrary.app/Contents/libs/node,REJECT
+PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/MacOS/Creative Cloud Helper,REJECT
+PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/MacOS/Adobe Desktop Service,REJECT
+PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud,REJECT
 DOMAIN,ios.rqd.qq.com,DIRECT
 PROCESS-NAME,/Applications/qbittorrent.app/Contents/MacOS/qbittorrent,DIRECT
 PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/MacOS/CleanMyMac X Menu,REJECT
