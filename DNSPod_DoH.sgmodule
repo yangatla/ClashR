@@ -44,6 +44,7 @@ PROCESS-NAME,/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app/Content
 PROCESS-NAME,/Applications/Adobe Photoshop 2022/Adobe Photoshop 2022.app/Contents/MacOS/Adobe Photoshop 2022,REJECT
 PROCESS-NAME,/Applications/QQ.app/Contents/Library/LoginItems/QQ jietu plugin.app/Contents/MacOS/QQ jietu plugin,REJECT
 PROCESS-NAME,/Library/Input Methods/SogouInput.app/Contents/MacOS/SogouInput,REJECT
+PROCESS-NAME,/Library/Input Methods/SogouInput.app/Contents/SogouPreference.app/Contents/MacOS/SogouPreference,REJECT
 PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
 PROCESS-NAME,/Applications/Maipo.app/Contents/MacOS/Maipo,DIRECT
 PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Setup,DIRECT
