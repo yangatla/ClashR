@@ -46,6 +46,7 @@ PROCESS-NAME,/Applications/QQ.app/Contents/Library/LoginItems/QQ jietu plugin.ap
 PROCESS-NAME,/Library/Input Methods/SogouInput.app/Contents/MacOS/SogouInput,REJECT
 PROCESS-NAME,/Library/Input Methods/SogouInput.app/Contents/SogouPreference.app/Contents/MacOS/SogouPreference,REJECT
 PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
+PROCESS-NAME,/Applications/iSlide.app/Contents/Frameworks/iSlide Helper.app/Contents/MacOS/iSlide Helper,DIRECT
 PROCESS-NAME,/Applications/Maipo.app/Contents/MacOS/Maipo,DIRECT
 PROCESS-NAME,/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Setup,DIRECT
 PROCESS-NAME,v2ray,DIRECT
