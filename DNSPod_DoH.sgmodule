@@ -78,6 +78,23 @@ PROCESS-NAME,/Applications/qbittorrent.app/Contents/MacOS/qbittorrent,DIRECT
 PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/MacOS/CleanMyMac X Menu,REJECT
 PROCESS-NAME,/Applications/EndNote X9/EndNote X9.app/Contents/MacOS/EndNote X9,DIRECT
 
+
+DOMAIN-SUFFIX,download.parallels.com,REJECT
+DOMAIN-SUFFIX,update.parallels.com,REJECT
+DOMAIN-SUFFIX,desktop.parallels.com,REJECT
+DOMAIN-SUFFIX,download.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN-SUFFIX,update.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN-SUFFIX,desktop.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN-SUFFIX,www.parallels.cn,REJECT
+DOMAIN-SUFFIX,www.parallels.com,REJECT
+DOMAIN-SUFFIX,reportus.parallels.com,REJECT
+DOMAIN-SUFFIX,parallels.com,REJECT
+DOMAIN-SUFFIX,parallels.cn,REJECT
+DOMAIN-SUFFIX,pax-manager.myparallels.com,REJECT
+DOMAIN-SUFFIX,myparallels.com,REJECT
+DOMAIN-SUFFIX,my.parallels.com,REJECT
+
+
 DOMAIN-SUFFIX,beyotime.com,DIRECT
 DOMAIN-SUFFIX,v1d.szbdyd.com,DIRECT
 DOMAIN-SUFFIX,seu.edu.cn,DIRECT
