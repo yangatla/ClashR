@@ -217,6 +217,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 
 [Script]
 http-request https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
+知乎_屏蔽关键字解锁 = type=http-request,script-path=https://raw.githubusercontent.com/zui-lang/QuantumultX/main/Script/ColorWeather/ColorWeather.js,pattern="^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather",requires-body=1
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
+hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com, biz.caiyunapp.com, api.interpreter.caiyunai.com, 
