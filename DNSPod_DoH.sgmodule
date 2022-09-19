@@ -2,14 +2,14 @@
 #!desc=Enable DNS over HTTPS (DoH) with DNSPod Public DNS.
 
 [General]
-bypass-system = true
+#bypass-system = true
 loglevel = notify
-replica = false
+#replica = false
 #dns-server = 223.5.5.5, 114.114.114.114
 dns-server = 127.0.0.1, ::1, system
 #doh-format = wireformat
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
-tun-excluded-routes = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+#tun-excluded-routes = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
 wifi-access-http-port = 8888
 wifi-access-socks5-port = 8889
 external-controller-access = passw0rd@0.0.0.0:6170
@@ -22,14 +22,14 @@ exclude-simple-hostnames = true
 ipv6 = true
 network-framework = false
 show-error-page-for-reject = true
-tls-provider = default
+#tls-provider = default
 use-default-policy-if-wifi-not-primary = false
 wifi-assist = true
 always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
 geoip-maxmind-url = https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
 
 # macOS Only
-enhanced-mode-by-rule = true
+#enhanced-mode-by-rule = true
 
 
 [Replica]
@@ -110,13 +110,7 @@ PROCESS-NAME,Folx,DIRECT
 PROCESS-NAME,NetTransport,DIRECT
 PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
-# > Local Area Network 局域网
-IP-CIDR,192.168.0.0/16,Direct
-IP-CIDR,10.0.0.0/8,Direct
-IP-CIDR,172.16.0.0/12,Direct
-IP-CIDR,127.0.0.0/8,Direct
-IP-CIDR,100.64.0.0/10,Direct
-IP-CIDR,224.0.0.0/4,Direct
+
 URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
 URL-REGEX,https?:\/\/.+.youtube.com\/api\/stats\/ads,REJECT
 URL-REGEX,https?:\/\/.+.youtube.com\/get_midroll_,REJECT
@@ -145,6 +139,13 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AllInOne/AllInOne_Classical.sgmodule
 
 
+# > Local Area Network 局域网
+IP-CIDR,192.168.0.0/16,Direct
+IP-CIDR,10.0.0.0/8,Direct
+IP-CIDR,172.16.0.0/12,Direct
+IP-CIDR,127.0.0.0/8,Direct
+IP-CIDR,100.64.0.0/10,Direct
+IP-CIDR,224.0.0.0/4,Direct
 
 [URL Rewrite]
 # > Redirect Google Service
