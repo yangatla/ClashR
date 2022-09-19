@@ -140,11 +140,11 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 
 
 # > Local Area Network 局域网
-IP-CIDR,192.168.0.0/16,Direct
-IP-CIDR,10.0.0.0/8,Direct
-IP-CIDR,172.16.0.0/12,Direct
-IP-CIDR,127.0.0.0/8,Direct
-IP-CIDR,100.64.0.0/10,Direct
+IP-CIDR,192.168.0.0/16,Direct,no-resolve
+IP-CIDR,10.0.0.0/8,Direct,no-resolve
+IP-CIDR,172.16.0.0/12,Direct,no-resolve
+IP-CIDR,127.0.0.0/8,Direct,no-resolve
+IP-CIDR,100.64.0.0/10,Direct,no-resolve
 IP-CIDR,224.0.0.0/4,Direct,no-resolve
 
 [URL Rewrite]
