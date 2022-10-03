@@ -1,3 +1,5 @@
+#!name=CombinedRules
+
 [Rule]
 PROCESS-NAME,/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app/Contents/MacOS/Adobe Photoshop 2021,REJECT
 PROCESS-NAME,/Applications/Adobe Photoshop 2022/Adobe Photoshop 2022.app/Contents/MacOS/Adobe Photoshop 2022,REJECT
