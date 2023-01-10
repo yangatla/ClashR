@@ -34,19 +34,28 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
-custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🧑🏻‍💻 私人订制`select`[]🚀 节点选择`[]REJECT`[]DIRECT
-custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]♻️ 自动选择`[]🎯 全球直连`.*
-custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
-custom_proxy_group=📲 电报信息`select`[]🚀 节点选择`[]🎯 全球直连`.*
-custom_proxy_group=Ⓜ️ 微软服务`select`[]🎯 全球直连`[]🚀 节点选择`.*
-custom_proxy_group=🍎 苹果服务`select`[]🚀 节点选择`[]🎯 全球直连`.*
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
+custom_proxy_group=🚀 节点选择`select`[]🇭🇰HK`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`[]DIRECT
+custom_proxy_group=🇭🇰HK`url-test`^((?!游戏).)*(港|HK|HONG|Hong|HGC)((?!游戏).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇨🇳TW`url-test`^((?!游戏).)*(台|新北|彰化|TW|Taiwan)((?!游戏).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇸🇬SG`url-test`^((?!游戏).)*(新|狮城|SG|Singapore)((?!游戏).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇯🇵JP`url-test`^((?!游戏).)*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)((?!游戏).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇺🇲US`url-test`^((?!游戏).)*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|San|Seattle|Los|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|USA|States)((?!游戏).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇰🇷KR`url-test`^((?!游戏).)*(韩|韩国|KR|Korea|KOR)((?!游戏).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇺🇳UN`select`^((?!(Hong|HK|Taiwan|TW|Singapore|SG|Japan|JP|States|US|Korea)).)*$`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🍵 手动选择`select`(^((?!(过期|免费)).)*$)
+
+
+custom_proxy_group=🧑🏻‍💻 私人订制`select`[]🚀 节点选择`[]REJECT`[]DIRECT`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🎯 全球直连`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择`[]🎯 全球直连`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=📲 电报信息`select`[]🚀 节点选择`[]🎯 全球直连`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=Ⓜ️ 微软服务`select`[]🎯 全球直连`[]🚀 节点选择`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=🍎 苹果服务`select`[]🚀 节点选择`[]🎯 全球直连`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连`[]🇨🇳TW`[]🇸🇬SG`[]🇯🇵JP`[]🇺🇲US`[]🇰🇷KR`[]🇺🇳UN`[]🍵 手动选择`.*
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
