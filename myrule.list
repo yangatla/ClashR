@@ -1,9 +1,5 @@
 # 自己的规则
-DOMAIN-SUFFIX,market.mi-img.com
-DOMAIN-SUFFIX,a.market.xiaomi.com
-
 DOMAIN-SUFFIX,rosonclub.com
-
 
 DOMAIN-KEYWORD,firefox
 DOMAIN-KEYWORD,nyancat
