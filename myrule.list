@@ -1,11 +1,6 @@
 # 自己的规则
 
 
-
-
-
-
-
 DOMAIN-SUFFIX,rosonclub.com
 
 DOMAIN-KEYWORD,firefox
@@ -28,7 +23,6 @@ DOMAIN,sci-hub.tw
 DOMAIN-KEYWORD,soft.2128.net
 DOMAIN-KEYWORD,acgbox
 DOMAIN,www.dilidili.wang
-DOMAIN,store.steampowered.com
 DOMAIN,www.dilidili.wang
 DOMAIN-KEYWORD,feemoo.com
 DOMAIN-KEYWORD,xn--i2ru8q2qg.com/user
