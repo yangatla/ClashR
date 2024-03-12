@@ -1,6 +1,8 @@
+DOMAIN,licenses.graphpad.com,REJECT
+
 DOMAIN-KEYWORD,tuxera
-DOMAIN-KEYWORD,duokan
-DOMAIN-KEYWORD,cloud.video.taobao.com
+DOMAIN-KEYWORD,duokan 
+DOMAIN-KEYWORD,cloud.video.taobao.com 
 
 DOMAIN,miav-cse.avlyun.com
 DOMAIN,a0.app.xiaomi.com
