@@ -1,5 +1,5 @@
-DOMAIN,licenses.graphpad.com,REJECT
-
+DOMAIN,licenses.graphpad.com
+DOMAIN-KEYWORD,adobe
 DOMAIN-KEYWORD,tuxera
 DOMAIN-KEYWORD,duokan 
 DOMAIN-KEYWORD,cloud.video.taobao.com 
@@ -22,14 +22,14 @@ DOMAIN-KEYWORD,updates.bettertouchtool.net
 DOMAIN-KEYWORD,folivora.ai
 DOMAIN-KEYWORD,updates.boastr.net
 DOMAIN-KEYWORD,updates.folivora.ai
-#DOMAIN-KEYWORD,armmf.adobe.com
-#DOMAIN-KEYWORD,lcs-cops.adobe.io
-#DOMAIN-KEYWORD,lcs-robs.adobe.io
-#DOMAIN-KEYWORD,ims-prod06.adobelogin.com
-DOMAIN-KEYWORD,smoothscroll.net
+DOMAIN-KEYWORD,armmf.adobe.com  
+DOMAIN-KEYWORD,lcs-cops.adobe.io  
+DOMAIN-KEYWORD,lcs-robs.adobe.io  
+DOMAIN-KEYWORD,ims-prod06.adobelogin.com  
+DOMAIN-KEYWORD,smoothscroll.net  
 DOMAIN,api.appcenter.ms
 DOMAIN,o36975.ingest.sentry.io
-#DOMAIN,cc-api-data.adobe.io
+DOMAIN,cc-api-data.adobe.io    
 DOMAIN,polka.typekit.com
 DOMAIN,baikevideo.cdn.bcebos.com
 
