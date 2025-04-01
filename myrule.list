@@ -1,7 +1,8 @@
 # 自己的规则
 
-
+DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,rosonclub.com
+DOMAIN-KEYWORD,pikpak
 
 DOMAIN-KEYWORD,firefox
 DOMAIN-KEYWORD,nyancat
